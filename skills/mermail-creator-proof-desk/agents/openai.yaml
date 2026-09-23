@@ -1,0 +1,12 @@
+interface:
+  display_name: "Mermail Creator Proof Desk"
+  short_description: "Turn opportunity briefs into proof-backed proposal drafts"
+  default_prompt: "Use $mermail-creator-proof-desk to assess one bounded Web3 opportunity, match it to my public proof, and save a reviewable proposal draft without sending or submitting it."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mermail"
+      description: "Mermail workspace and mailbox MCP server"
+      transport: "streamable_http"
+      url: "https://console.mermail.app/mcp"
+
